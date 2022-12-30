@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navdiv{
+    position: fixed;
+}
+.navtitles{
+    margin: 0 20px;
+}
+nav{
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000000000000056789;
+  margin-top: 15px;
+}
+.navp1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    color: #393c41;
+    font-weight: 900;
+    font-size: 15px;
+}
+.navp2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    color: #393c41;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+.navtitles2{
+    margin: 0 5px;
+}
+.icon{
+    font-size: 27px;
+}
+.model-s{
+    background-image: url("https://raw.githubusercontent.com/swwayam/tesla/main/public/images/model-s.jpg");
+}
+.model-y{
+    background-image: url( https://raw.githubusercontent.com/swwayam/tesla/main/public/images/model-y.jpg);
+}
+.model-3{
+    background-image: url(https://raw.githubusercontent.com/swwayam/tesla/main/public/images/model-3.jpg) ;
+}
+.model-x{
+    background-image: url(https://raw.githubusercontent.com/swwayam/tesla/main/public/images/model-x.jpg);
+}
+.solar-panels{
+   background-image: url(https://raw.githubusercontent.com/swwayam/tesla/main/public/images/solar-panel.jpg) ;
+}
+.solar-roof{
+    background-image: url(https://raw.githubusercontent.com/swwayam/tesla/main/public/images/solar-roof.jpg) ;
+}
+.accessories{
+    background-image: url(https://raw.githubusercontent.com/swwayam/tesla/main/public/images/accessories.jpg) ;
+}
+.common{
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Heading{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    color: #393c41;
+}
+.Subheading{
+    font-family: 'Roboto', sans-serif;
+    color: #393c41;
+
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btngroup{
+    margin-bottom: 40px;
+}
+.leftbtn{
+    margin-left: 15px;
+    height: 40px;
+    width: 250px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgba(23, 26, 32, 0.8);
+    color: white;
+}
+.rightbtn{
+    margin-left: 15px;
+    height: 40px;
+    width: 250px;
+    border-radius: 30px;
+    border: none;
+}
+@media(max-width:760px){
+    .btngroup{
+        display: flex;
+        flex-direction: column;
+    }
+    .leftbtn{
+        margin-bottom: 20px;
+    }
+}
+.arrowimg{
+    height: 40px;
+}
+@media(max-width:1050px){
+     .navp1{
+        display: none;
+     }
+}
